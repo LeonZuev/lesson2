@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-intro</title>
+    <style>
+        h1 {
+            color: lightcoral;
+        }
+    </style>
+    <!-- ссылка на подключение css-->
+    <link rel="stylesheet" href="style.css">
+    <!--Приоретет стилей: самый важный - inline-->
+    <!--Для всех остальных - последний подключенный перезапишет все предыдущее-->
+</head>
+
+<body>
+    <!-- шапка сверху страницы, в нём может находиться навигационная модель -->
+    <header>
+        <nav>
+            <a href="https://www.youtube.com/">ЮТУБЧИК</a>
+            <a href="https://chat.openai.com/">Chat GPT</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Добро пожаловать в CSS</h1>
+        <p style="color: rgb(240, 145, 145);">CSS можно подключить тремя разными способами:</p>
+        <ul>
+            <li style="background-color: lightblue;">Первый способ - это inline</li>
+            <li>Второй способ - это внутренний CSS</li>
+            <li>Третий способ - это внешний CSS (стили распологаются во внешнем файле)</li>
+        </ul>
+        <h1> Ещё один заголовок </h1>
+        <h1 style="color:rgb(72, 72, 220)"> Ещё один заголовок </h1>
+        <p><span>Lorem ipsum dolor sit amet consecte</span>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur tempora facere iure nihil minus maiores
+            rerum asperiores molestiae exercitationem consequuntur, nesciunt, iste repellendus possimus repellat unde.
+            Corporis provident aut quis?
+        </p>
+        <div>
+            <h3>Подзаголовок внутри 'div'</h3>
+        </div>
+        <div>Это кусок 'div'. 'div' отображается блочно это не сематический блок</div>
+        <div>
+            <span id="special">Lorem ipsum dolor sit amet consecte</span>
+            Это кусок дива. Див отображается блочно это не сематический блок
+        </div>
+
+        <div id="red-box">Этот 'div'стилезуем по id</div>
+        <p class="green-text"> Параграф стилизуем по классам</p>
+        <p class="green-text">Ещё один параграф с тем-же стилем</p>
+
+    </main>
+    <footer>
+        Футер Информация о сайте, ссылки и тд
+    </footer>
+</body>
+
+</html>

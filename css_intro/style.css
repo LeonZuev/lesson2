@@ -1,0 +1,30 @@
+/* Селекторы по тегу: */
+h1 {
+    color: rgb(17, 171, 17);
+  }
+  
+  span {
+    color:lightpink;
+    font-weight: bold;
+  }
+  
+  div {
+    background-color: lightsteelblue;
+  }
+
+  /*  Селекторы по ID */
+
+  #special {
+    font-style: italic;
+    color: rgb(75, 75, 214);
+  }
+
+#red-box {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(170, 61, 36);
+}
+/* Селекторы по классам */
+.green-text{
+    color: rgb(140, 202, 46);
+}
